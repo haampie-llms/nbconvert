@@ -4,7 +4,7 @@ import re
 
 # Copyright (c) IPython Development Team.
 # Distributed under the terms of the Modified BSD License.
-from nbconvert.preprocessors import Preprocessor
+from .base import Preprocessor
 
 CR_PAT = re.compile(r".*\r(?=[^\n])")
 
